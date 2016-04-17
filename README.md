@@ -1,6 +1,8 @@
 # flex_bison_example
 A calculator example to use flex and bison in Windows. Version 2.5 (win_flex_bison-2.5.zip) is used in the test.  C/C++ compiler is from Visual Studio 2005.
 
+Build and test on Windows Threshold 2 with VS2005 professional.
+
 Things to make Windows happy:
 1. "%option nounistd" to avoid unisdt.h missing error.
 2. "%option noyywrap" to avoid undefined function "_yywrap" error.
